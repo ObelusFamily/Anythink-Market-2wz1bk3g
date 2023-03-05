@@ -21,6 +21,7 @@ services:
       - DEBUG=True
       - DATABASE_URL=postgresql://postgres:@postgres-python:5432/anythink-market
       - GITHUB_CODESPACES_PORT_FORWARDING_DOMAIN=${GITHUB_CODESPACES_PORT_FORWARDING_DOMAIN}
+      - OPENAI_API_KEY="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"
     depends_on:
       - "postgres-python"
 
